@@ -8,6 +8,8 @@
  */
 
 #import "AppDelegate.h"
+#import "RNAnalytics.h"
+
 
 #import "RCTBundleURLProvider.h"
 #import "RCTRootView.h"
@@ -17,6 +19,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   NSURL *jsCodeLocation;
+
+[RNAnalytics registerWithInitiallyEnabled:true];
 
   jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
 

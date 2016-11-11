@@ -1,3 +1,5 @@
 rootProject.name = 'testproj'
 
 include ':app'
+include ':mobilecenter-analytics'
+project(':mobilecenter-analytics').projectDir = new File(rootProject.projectDir, '../node_modules/mobilecenter-analytics/android')

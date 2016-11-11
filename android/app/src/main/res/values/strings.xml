@@ -1,3 +1,4 @@
 <resources>
+    <string moduleConfig="true" name="mobilecenterAnalytics_whenToEnableAnalytics">ALWAYS_SEND</string>
     <string name="app_name">testproj</string>
 </resources>
